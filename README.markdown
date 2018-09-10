@@ -1,20 +1,3 @@
-# Adding or updating a device
-
-This repository is preconfigured to use the git-review plugin. More information can be found at:
-https://pypi.python.org/pypi/git-review
-
-**Note:** Sort device listings in lineage-build-targets alphanumerically by codename.  
-Steps:  
-1. Edit lineage-build-targets with your device codename and branch.  
-2. Update `updater/devices.json` according to the instructions below.  
-3. Submit the change to gerrit for review.  
-
-You can upload your change to gerrit with commands like these:
-
-    git add lineage-build-targets updater/devices.json
-    git commit
-    git review
-
 ### devices.json
 devices.json is an array of objects, each with several fields:
 
